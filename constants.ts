@@ -3,15 +3,15 @@ import { ChemicalItem } from './types';
 
 export const INITIAL_INVENTORY: ChemicalItem[] = [
   // 非金属
-  { id: 'h', symbol: 'H', name: '氢气', description: '宇宙中最丰富的元素，高度易燃。', type: 'basic', color: 'cyan', discoveredAt: Date.now() },
-  { id: 'o', symbol: 'O', name: '氧气', description: '生命之源，助燃剂。', type: 'basic', color: 'blue', discoveredAt: Date.now() },
+  { id: 'h', symbol: 'H₂', name: '氢气', description: '宇宙中最丰富的元素，高度易燃。', type: 'basic', color: 'cyan', discoveredAt: Date.now() },
+  { id: 'o', symbol: 'O₂', name: '氧气', description: '生命之源，助燃剂。', type: 'basic', color: 'blue', discoveredAt: Date.now() },
   { id: 'c', symbol: 'C', name: '碳', description: '有机化学的基础，形式多样。', type: 'basic', color: 'slate', discoveredAt: Date.now() },
-  { id: 'n', symbol: 'N', name: '氮气', description: '空气的主要成分，性质稳定。', type: 'basic', color: 'indigo', discoveredAt: Date.now() },
-  { id: 'cl', symbol: 'Cl', name: '氯气', description: '黄绿色有毒气体，强氧化性。', type: 'basic', color: 'green', discoveredAt: Date.now() }, // Fixed: Changed to basic
+  { id: 'n', symbol: 'N₂', name: '氮气', description: '空气的主要成分，性质稳定。', type: 'basic', color: 'indigo', discoveredAt: Date.now() },
+  { id: 'cl', symbol: 'Cl₂', name: '氯气', description: '黄绿色有毒气体，强氧化性。', type: 'basic', color: 'green', discoveredAt: Date.now() },
   { id: 's', symbol: 'S', name: '硫', description: '淡黄色固体，易燃，用于制造火药。', type: 'basic', color: 'yellow', discoveredAt: Date.now() },
   { id: 'p', symbol: 'P', name: '磷', description: '有白磷（剧毒易燃）和红磷等同素异形体。', type: 'basic', color: 'red', discoveredAt: Date.now() },
   { id: 'si', symbol: 'Si', name: '硅', description: '半导体材料的核心，地壳中含量第二。', type: 'basic', color: 'stone', discoveredAt: Date.now() },
-  { id: 'i', symbol: 'I', name: '碘', description: '紫黑色固体，遇淀粉变蓝，易升华。', type: 'basic', color: 'purple', discoveredAt: Date.now() },
+  { id: 'i', symbol: 'I₂', name: '碘', description: '紫黑色固体，遇淀粉变蓝，易升华。', type: 'basic', color: 'purple', discoveredAt: Date.now() },
 
   // 金属
   { id: 'na', symbol: 'Na', name: '钠', description: '质软的碱金属，遇水剧烈反应。', type: 'basic', color: 'stone', discoveredAt: Date.now() },

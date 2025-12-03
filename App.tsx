@@ -65,9 +65,8 @@ export default function App() {
   };
 
   const closeResultModal = () => {
-    if (synthesisResult?.success) {
-      setWorkbenchItems([]); 
-    }
+    // Clear workbench regardless of success/failure to streamline gameplay
+    setWorkbenchItems([]); 
     setSynthesisResult(null);
   };
 
